@@ -8,6 +8,6 @@ char* welcome() {
 int main() {
     char* c = malloc(sizeof(char));
     scanf("%c", c);
-    printf("%d", *((int)c));
+    printf("%d",*c);
     return 0;
 }
