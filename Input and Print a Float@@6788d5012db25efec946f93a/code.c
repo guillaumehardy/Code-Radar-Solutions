@@ -2,8 +2,8 @@
 
 
 int main() {
-    char input[100];
-    scanf("%s", input);
-    printf("You entered: %s", input);
+    float input;
+    scanf("%f", input);
+    printf("You entered: %.2f", input);
     return 0;
 }
