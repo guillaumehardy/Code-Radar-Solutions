@@ -3,8 +3,7 @@
 int main() 
 {
     int a = 0;
-    int b = 0;
-    scanf("%d %d", &a, &b);
-    printf("%d", a | b + 1);
+    scanf("%d", &a);
+    printf("%d", (a & 0xFF) + 1);
     return 0;
 }
