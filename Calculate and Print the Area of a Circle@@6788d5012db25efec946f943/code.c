@@ -3,8 +3,7 @@
 
 int main() {
     float input = 0.0;
-    scanf("%f", input);
-    printf("%f", input);
+    scanf("%f", &input);
     printf("%.2f", input * input * pi);
     return 0;
 }
