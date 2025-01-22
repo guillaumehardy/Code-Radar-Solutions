@@ -4,7 +4,7 @@ int main()
 {
     int a = 0;
     scanf("%d", &a);
-    int n = 0;
+    int n = 32;
     while(a != 0 && n != 0)
     {
         a = a >> 1;
