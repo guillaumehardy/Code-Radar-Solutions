@@ -8,7 +8,7 @@ int main()
 {
     int a = 0;
     scanf("%d", &a);
-    n = 0;
+    int n = 0;
     while(n < 32 && a != 0 && a & 1 == 0)
     {
         n += 1
