@@ -7,6 +7,6 @@ int main()
     int shift = 1;
     scanf("%d %d", &a, &b);
     shift = shift << b;
-    printf("%s", a ^ shift);
+    printf("%d", a ^ shift);
     return 0;
 }
