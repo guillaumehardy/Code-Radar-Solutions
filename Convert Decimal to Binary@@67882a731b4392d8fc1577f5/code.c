@@ -9,6 +9,9 @@ int main()
 {
     int a = 0;
     scanf("%d", &a);
-    printf("%d", int_to_bit(a));
+    if(a > 0)
+        printf("%d", int_to_bit(a));
+    else
+        printf("%d", 0x8000 | int_to_bit(a));
     return 0;
 }
