@@ -9,9 +9,9 @@ int main()
     {
         result += a & 1;
         a >>= 1;
-        result <<= 1;  
+        result *= 10;  
     }
-    result ~= result;
+    //result = ~result;
     printf("%d", result);
     return 0;
 }
