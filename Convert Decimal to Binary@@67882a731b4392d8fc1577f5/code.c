@@ -7,10 +7,11 @@ int main()
     int result = 0;
     while(a != 0)
     {
-        result += a % 2;
-        a /= 2;
-        result *= 10;
+        result += a & 1;
+        a >>= 1;
+        result <<= 1;  
     }
+    result ~= result;
     printf("%d", result);
     return 0;
 }
