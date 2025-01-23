@@ -2,7 +2,7 @@
 
 int int_to_bit(int n)
 {
-    return (k == 0 || k == 1) ? k : (k % 2) + 10 * int_to_bit(n / 2);        
+    return (n == 0 || n == 1) ? n : (n % 2) + 10 * int_to_bit(n / 2);        
 }
 
 int main() 
