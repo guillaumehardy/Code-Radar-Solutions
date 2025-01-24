@@ -10,7 +10,7 @@ int main()
   }
   else 
   {
-    printf("%s", "Not Divisible")
+    printf("%s", "Not Divisible");
   }
   return 0;
 }
