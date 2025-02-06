@@ -10,7 +10,7 @@ int main()
   }
   if (a >= 'a' && a <= 'z')
   {
-    printf("%s", "Not Uppercase");
+    printf("%s", "Lowercase");
   }
   return 0;
 }
