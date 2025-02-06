@@ -17,8 +17,10 @@ int main()
             case 'u':
             case 'y':
                 printf("Vowel");
+                break;
             default:
                 printf("Consonant");
+                break;
         }
     }
     else if(c >= 'A' && c <= 'Z')
@@ -32,8 +34,10 @@ int main()
             case 'U':
             case 'Y':
                 printf("Vowel");
+                break;
             default:
                 printf("Consonant");
+                break;
         }
     }
     else if(c >= '0' && c <= '9')
