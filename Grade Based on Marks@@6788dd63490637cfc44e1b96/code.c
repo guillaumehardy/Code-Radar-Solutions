@@ -3,7 +3,7 @@
 int main()
 {
     int a = 0;
-    scanf("%d", &d);
+    scanf("%d", &a);
 
     if(a >= 90)
         printf("A");
